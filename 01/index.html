@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://unpkg.com/reset-css/reset.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="np">
+    <div class="header">头部</div>
+    <div class="content">
+      <div class="left">左侧就诊时间轴</div>
+      <div class="main">内容区</div>
+    </div>
+  </div>
+  <style type="text/css">
+    html,
+    body {
+      height: 100%;
+    }
+
+    .np {
+      background-color: beige;
+      height: 100%;
+      min-height: 360px;
+      min-width: 680px;
+      position: relative;
+    }
+
+    .header {
+      height: 48px;
+      background-color: burlywood;
+    }
+
+    .content {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 48px;
+      bottom: 0;
+      background-color: bisque;
+    }
+
+    .left {
+      position: absolute;
+      width: 240px;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      background-color: cadetblue;
+    }
+
+    .main {
+      position: absolute;
+      left: 240px;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background-color: cornflowerblue;
+    }
+  </style>
+</body>
+
+</html>
